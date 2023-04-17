@@ -1,0 +1,229 @@
+{
+	// Place your snippets for systemverilog here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"pin assign 固定クロック": {
+		"prefix": "pinclock",
+		"body": [
+			"// pin-assign 固定クロック",
+		]
+	},
+
+	"pin assign 可変クロック": {
+		"prefix": "pinclock",
+		"body": [
+			"// pin-assign 可変クロック",
+		]
+	},
+
+	"pin assign テンキーSW4": {
+		"prefix": "pinsw4",
+		"body": [
+			"// pin-assign テンキーSW4",
+		]
+	},
+	
+	"pin assign テンキーSW5": {
+		"prefix": "pinsw5",
+		"body": [
+			"// pin-assign テンキーSW5",
+		]
+	},
+	
+	"pin assign テンキーSW6": {
+		"prefix": "pinsw6",
+		"body": [
+			"// pin-assign テンキーSW6",
+		]
+	},
+	"pin assign テンキーSW7": {
+		"prefix": "pinsw7",
+		"body": [
+			"// pin-assign テンキーSW7",
+		]
+	},
+	
+	"pin assign テンキーSW8": {
+		"prefix": "pinsw8",
+		"body": [
+			"// pin-assign テンキーSW8",
+		]
+	},
+	
+	"pin assign テンキーSW9": {
+		"prefix": "pinsw9",
+		"body": [
+			"// pin-assign テンキーSW9",
+		]
+	},
+	
+	"pin assign テンキーSW10": {
+		"prefix": "pinsw10",
+		"body": [
+			"// pin-assign テンキーSW10",
+		]
+	},	
+
+	"pin assign テンキーSW11": {
+		"prefix": "pinsw11",
+		"body": [
+			"// pin-assign テンキーSW11",
+		]
+	},
+	
+	"pin assign テンキーSW12": {
+		"prefix": "pinsw12",
+		"body": [
+			"// pin-assign テンキーSW12",
+		]
+	},
+	
+	"pin assign テンキーSW13": {
+		"prefix": "pinsw13",
+		"body": [
+			"// pin-assign テンキーSW13",
+		]
+	},
+	
+	"pin assign テンキーSW14": {
+		"prefix": "pinsw14",
+		"body": [
+			"// pin-assign テンキーSW14",
+		]
+	},
+	
+	"pin assign テンキーSW15": {
+		"prefix": "pinsw15",
+		"body": [
+			"// pin-assign テンキーSW15",
+		]
+	},
+	
+	"pin assign テンキーSW16": {
+		"prefix": "pinsw16",
+		"body": [
+			"// pin-assign テンキーSW16",
+		]
+	},
+	
+	"pin assign テンキーSW17": {
+		"prefix": "pinsw17",
+		"body": [
+			"// pin-assign テンキーSW17",
+		]
+	},
+	
+	"pin assign テンキーSW18": {
+		"prefix": "pinsw18",
+		"body": [
+			"// pin-assign テンキーSW18",
+		]
+	},
+	
+	"pin assign テンキーSW19": {
+		"prefix": "pinsw19",
+		"body": [
+			"// pin-assign テンキーSW19",
+		]
+	},
+	
+	"pin assign テンキーSW20": {
+		"prefix": "pinsw20",
+		"body": [
+			"// pin-assign テンキーSW20",
+		]
+	},
+	
+	"pin assign テンキーSW21": {
+		"prefix": "pinsw21",
+		"body": [
+			"// pin-assign テンキーSW21",
+		]
+	},
+	
+	"pin assign テンキーSW22": {
+		"prefix": "pinsw22",
+		"body": [
+			"// pin-assign テンキーSW22",
+		]
+	},
+	
+	"pin assign テンキーSW23": {
+		"prefix": "pinsw23",
+		"body": [
+			"// pin-assign テンキーSW23",
+		]
+	},
+	
+	"pin assign 7セグLED-A(8ビット)": {
+		"prefix": "pin7sega",
+		"body": [
+			"// pin-assign 7セグLED-A",
+		]
+	},
+	
+	"pin assign 7セグLED-Aセレクタ(4ビット)": {
+		"prefix": "pin7sega",
+		"body": [
+			"// pin-assign 7セグLED-Aセレクタ",
+		]
+	},"pin assign 7セグLED-B(8ビット)": {
+		"prefix": "pin7segb",
+		"body": [
+			"// pin-assign 7セグLED-B",
+		]
+	},
+	
+	"pin assign 7セグLED-Bセレクタ(4ビット)": {
+		"prefix": "pin7segb",
+		"body": [
+			"// pin-assign 7セグLED-Bセレクタ",
+		]
+	},
+	
+	"pin assign ロータリースイッチ-A(4ビット)": {
+		"prefix": "pinrotarya",
+		"body": [
+			"// pin-assign ロータリースイッチ-A",
+		]
+	},
+	
+	"pin assign ロータリースイッチ-B(4ビット)": {
+		"prefix": "pinrotaryb",
+		"body": [
+			"// pin-assign ロータリースイッチ-B",
+		]
+	},
+	
+	"pin assign ディップスイッチ-A(8ビット)": {
+		"prefix": "pindipa",
+		"body": [
+			"// pin-assign ディップスイッチ-A",
+		]
+	},
+	
+	"pin assign ディップスイッチ-B(8ビット)": {
+		"prefix": "pindipb",
+		"body": [
+			"// pin-assign ディップスイッチ-B",
+		]
+	},
+	
+	"pin assign ブザー": {
+		"prefix": "pinbuzzer",
+		"body": [
+			"// pin-assign ブザー",
+		]
+	}
+}
